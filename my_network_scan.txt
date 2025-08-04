@@ -1,0 +1,52 @@
+C:\Users\JAI HO>nmap -sS 192.168.31.0/24
+Starting Nmap 7.97 ( https://nmap.org ) at 2025-08-04 21:16 +0530
+Stats: 0:00:03 elapsed; 0 hosts completed (0 up), 255 undergoing ARP Ping Scan
+ARP Ping Scan Timing: About 0.20% done
+Nmap scan report for jiofiber.local.html (192.168.31.1)
+Host is up (0.0048s latency).
+Not shown: 994 closed tcp ports (reset)
+PORT     STATE SERVICE
+53/tcp   open  domain
+80/tcp   open  http
+443/tcp  open  https
+7443/tcp open  oracleas-https
+8080/tcp open  http-proxy
+8443/tcp open  https-alt
+MAC Address: 9C:D4:A6:49:9A:89 (Servercom (India) Private Limited)
+
+Nmap scan report for OPPO-A31.lan (192.168.31.34)
+Host is up (0.0042s latency).
+All 1000 scanned ports on OPPO-A31.lan (192.168.31.34) are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+MAC Address: 30:4F:00:C2:E6:51 (Guangdong Oppo Mobile Telecommunications)
+
+Nmap scan report for Samsung-Refrigerator.lan (192.168.31.68)
+Host is up (0.028s latency).
+All 1000 scanned ports on Samsung-Refrigerator.lan (192.168.31.68) are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+MAC Address: 28:6B:B4:80:32:73 (Sjit)
+
+Nmap scan report for Titiksha-s-F15.lan (192.168.31.103)
+Host is up (0.0068s latency).
+All 1000 scanned ports on Titiksha-s-F15.lan (192.168.31.103) are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+MAC Address: 3E:2E:38:AC:50:A9 (Unknown)
+
+Nmap scan report for SetTopBox-4683.lan (192.168.31.194)
+Host is up (0.0039s latency).
+Not shown: 998 closed tcp ports (reset)
+PORT     STATE SERVICE
+2869/tcp open  icslap
+9080/tcp open  glrpc
+MAC Address: 14:85:54:1F:83:59 (Earda Technologies)
+
+Nmap scan report for DESKTOP-J1OJKVU.lan (192.168.31.249)
+Host is up (0.00086s latency).
+Not shown: 996 closed tcp ports (reset)
+PORT     STATE SERVICE
+135/tcp  open  msrpc
+139/tcp  open  netbios-ssn
+445/tcp  open  microsoft-ds
+3306/tcp open  mysql
+
+Nmap done: 256 IP addresses (6 hosts up) scanned in 88.29 seconds
